@@ -46,10 +46,12 @@
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: var(--segunda);
-    height: 6vh;
+    height: 8vh;
     width: 100%;
 
   }
+  
+  
   body{
     background-color: var(--bg);
   }
