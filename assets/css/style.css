@@ -5,10 +5,11 @@
 
   :root{
     --main: #fff;
-    --segunda: #040405;
-    --bg: rgb(252, 247, 247);
+    --segunda: #47474b;
+    --bg: #fff;
     --carrosel:	#64696ec4;
     --carrosel-seg:#fff;
+    --nav-color:#1b2029;
   }
   
   a {
@@ -33,24 +34,14 @@
     opacity: 0.7;
     color: azure;
   }
-  
-  .logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: var(--segunda);
-    height: 8vh;
-    width: 100%;
 
+  nav {
+    position: fixed;
+    background-color: var(--nav-color);
+    border-radius: 10px;
   }
-  
+
+
   
   body{
     background-color: var(--bg);
@@ -99,4 +90,8 @@
     display: none;
  }
     
+}
+
+.rodape > p{
+    color: var(--nav-color);
 }

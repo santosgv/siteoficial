@@ -13,22 +13,35 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-      <main>
-        <header>
-            <nav class="nav nav-pills flex-column flex-sm-row">
-                <a class="flex-sm-fill text-sm-center nav-link" href="#visaogeral"><img src="assets/img/logo-simple.png" height="40px" alt=""></a>
-                <a class="flex-sm-fill text-sm-center nav-link" href="#Projetos">Projetos</a>
-                <a class="flex-sm-fill text-sm-center nav-link" href="#Serviços">Serviços</a>
-                <a class="flex-sm-fill text-sm-center nav-link" href="#Contatos">Contatos</a>
-    
-              </nav>
+      <div class="container-fluid menu text-center margin">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#visaogeral"><img src="assets/img/logo-simple.png" height="35px" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> <img src="assets/img/logo-min.png" height="35px" alt=""></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#Projetos">Projetos <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#Serviços">Serviços</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#Contatos">Contatos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      </div>
         </header>
         <section id="=visaogeral">
             <div class="container-fluid sobre text-center margin">
                 <h3>Visão Geral</h3>
                 <img src="assets/img/logo.png" width="400px" height="200px" alt="logo marca">
                 <p></p>
-                  <p>Acelere a transformação digital de seu negocio com nossa ajuda estratégica e com o suporte operacional e treinamento de que você precisa.</p>
+                  <p>Acelere a transformação digital de seu negocio com ajuda estratégica e com o suporte operacional e treinamento de que você precisa.</p>
                   <p>Serviços de suporte de TI que eliminam a complexidade e ajudam você a ter seu negocio na internet.</p>
                   <p>Nós cuidamos da TI, para que você possa cuidar dos negócios</p>
                   <p></p>
@@ -149,7 +162,7 @@
                             <img src="https://img.icons8.com/external-flat-juicy-fish/60/000000/external-responsive-coding-and-development-flat-flat-juicy-fish.png"/>
                             <p>Layouts Responsivos em todos as telas</p>
                         </div>
-						<div class="col">
+						              <div class="col">
                           <img src="https://img.icons8.com/dusk/64/000000/domain.png"/>
                           <p>Criaçao e Hospedagem de Sites</p>
                           </div>
@@ -157,7 +170,10 @@
                           <img src="https://img.icons8.com/dusk/64/000000/technical-support.png"/>
                           <p>Suporte ao Cliente</p>
                           </div>
-						 
+                          <div class="col">
+                            <img src="https://img.icons8.com/dusk/50/000000/total-sales.png"/>
+                            <p>Market Digital para seus produtos</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -225,8 +241,9 @@
         </section>
     </main>
     <footer class="container-fluid margin rodape text-center">
-
       <p>© Copyright 2022</p>
+      <br>
+      <p> CNPJ:  45.244.997/0001-63</p>
     </footer>
     <script src="assets/js/js.js"></script>
   </body>
