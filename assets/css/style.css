@@ -36,6 +36,7 @@
   }
 
   nav {
+    margin-top: 5px;
     position: fixed;
     background-color: var(--nav-color);
     border-radius: 10px;
@@ -89,7 +90,9 @@
    .bg-carrosel > button{
     display: none;
  }
-    
+    .sobre > img {
+      height: 100px;
+    }
 }
 
 .rodape > p{
