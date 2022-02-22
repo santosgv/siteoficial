@@ -84,7 +84,7 @@
     }
 
     .bg-carrosel{
-      display: none;
+      display: block;
    }
 
    .bg-carrosel > button{
