@@ -10620,7 +10620,7 @@ right: -50px;
 .choos-box > i {
 position: relative;
 padding: 2px;
-color: #bc1f1f;
+color: #FF4500;
 font-size: 26px;
 }
 .choos-box > i + .choos-info {
@@ -10641,13 +10641,13 @@ width: calc(100% - 48px);
   font-weight: 800;
   padding: 18px 30px;
   background-color: #fff;
-  color: #bc1f1f;
-  border: solid 1px #bc1f1f;
+  color: #FF4500;
+  border: solid 1px #FF4500;
   border-radius: 15px;
 }
 .service-box8 > a:hover, 
 .service-box8 > a:focus {
-  background-color: #bc1f1f;
+  background-color: #FF4500;
   color: #fff;
 }
 .service-box8 > a:before {
